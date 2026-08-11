@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mari Muthu | Digital Marketing & Growth Strategist</title>
+<meta name="description" content="Mari Muthu | Digital Marketing Strategist specializing in SEO, Performance Ads, Analytics and Growth.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+<header id="siteHeader" style="background-color: #0B1F3A;">
+  <div class="logo" style="margin-left: 60px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;font-size: 30px;">Mari Muthu.M</div>
+  <nav class="links" id="navLinks">
+    <!-- <a href="#home">Home</a> -->
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button class="burger" id="burgerBtn" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<div class="drawer-overlay" id="drawerOverlay"></div>
+<div class="mobile-drawer" id="mobileDrawer">
+  <!-- <a href="#home">Home</a> -->
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#projects">Projects</a>
+  <a href="#experience">Experience</a>
+  <a href="#certificates">Certificates</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<!-- HOME -->
+<!-- <section id="home">
+  <div class="hero-carousel" aria-hidden="true">
+    <div class="carousel-track">
+      <div class="carousel-slide"><img src="/bg-1.jpg" alt=""></div>
+      <div class="carousel-slide"><img src="assets/bg-2.jpg" alt=""></div>
+      <div class="carousel-slide"><img src="assets/bg-3.jpg" alt=""></div>
+      <div class="carousel-slide"><img src="assets/bg-4.jpg" alt=""></div>
+    </div>
+    <div class="hero-carousel-overlay"></div>
+  </div>
+  <div class="hero-grid"></div>
+  <div class="hero-inner">
+    <div>
+      <div class="eyebrow">DIGITAL MARKETING &amp; GROWTH STRATEGIST</div>
+      <h1 class="headline">Turning search traffic into <span class="grad">real customers.</span></h1>
+      <p class="hero-sub">I'm Mari Muthu.M — I plan and run SEO, performance ads and analytics systems that help small and mid-size businesses grow organic traffic and leads, month after month.</p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn btn-primary">Let's Work Together</a>
+        <a href="#projects" class="btn btn-ghost">View Projects</a>
+        <a href="assets/Aarav-Mehta-Resume.pdf" class="btn btn-resume" download>View Resume ↓</a>
+      </div>
+    </div>
+    <div class="chart-card">
+      <div class="chart-head">
+        <span>ORGANIC TRAFFIC — 6 MONTH TREND</span>
+        <span class="val">+186%</span>
+      </div>
+      <svg id="growthline" viewBox="0 0 320 140">
+        <defs>
+          <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0%" stop-color="#F4A300"/>
+            <stop offset="55%" stop-color="#FF6B5B"/>
+            <stop offset="100%" stop-color="#8FD9A8"/>
+          </linearGradient>
+          <linearGradient id="fillGrad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#8FD9A8" stop-opacity="0.28"/>
+            <stop offset="100%" stop-color="#8FD9A8" stop-opacity="0"/>
+          </linearGradient>
+        </defs>
+        <polygon class="growth-fill" fill="url(#fillGrad)" points="0,120 30,112 65,118 100,95 135,100 170,72 205,80 240,50 275,38 310,15 310,140 0,140"/>
+        <path class="growth-path" d="M0,120 L30,112 L65,118 L100,95 L135,100 L170,72 L205,80 L240,50 L275,38 L310,15"/>
+        <circle class="chart-dot" cx="310" cy="15" r="5"/>
+      </svg>
+    </div>
+  </div>
+  <div class="stats-bar">
+    <div class="stat"><div class="num"><span data-count="42">0</span>+</div><div class="lbl">Campaigns launched</div></div>
+    <div class="stat"><div class="num"><span data-count="186">0</span>%</div><div class="lbl">Avg. organic traffic growth</div></div>
+    <div class="stat"><div class="num">₹<span data-count="18">0</span>L+</div><div class="lbl">Ad spend managed</div></div>
+    <div class="stat"><div class="num"><span data-count="97">0</span>%</div><div class="lbl">Client retention rate</div></div>
+  </div>
+</section> -->
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="avatar-block reveal">
+        <div class="avatar"><img src="/img/profile.jpg" alt="Mari Muthu.M portrait"></div>
+      </div>
+      <div class="about-text reveal">
+        <span class="tag" style="font-size: 35px;font-weight: bold;"><b>About Me</b></span>
+        <h2 style="color: red;">Digital Marketing & SEO Analyst</h2>
+        <p style="margin-top:18px;">I'm a results-driven Digital Marketing & SEO Analyst, specializing in data-driven strategies to improve search rankings, conduct keyword research, optimize on-page and technical SEO, manage link building, and enhance content performance. Experienced with Google Analytics (GA4), Google Search Console, SEMrush, Ubersuggest, Microsoft Clarity, and digital ad campaign management. Skilled in content strategy, social media marketing basics, basic HTML and CSS, and using Canva for creative design. Focused on delivering measurable results and enhancing online brand presence.</p>
+        <p><samp style="font-weight: bold;color: blue;">Soft Skills:</samp> Communication | Analytical Thinking | Problem Solving | Teamwork | Time Management Adaptability | Creativity | Attention to Detail</p>
+        <div class="about-meta">
+          <div><b>Name</b>M.MariMuthu</div>
+          <div><b>Phone</b>+91 9361184181</div>
+          <div><b>Email</b>marimuthu.m9655@gmail.com</div>
+          <div><b>Location</b>Palani, Dindigul</div>
+        </div>
+        
+        <div class="skill-tags">
+          <div id="MySkills">My Skills :</div>
+          <span>ON-Page SEO</span>
+          <span>OFF-Page SEO</span>
+          <span>Technical SEO</span>
+          <span>Local SEO</span>
+          <span>Google Search Console</span>
+          <span>Google Analytics 4</span><span>SEM &amp; SMM</span>
+          <span>Content Writing</span>
+          <span>Google Ads &amp; Meta Ads</span>
+          <span>Poster Creation</span>
+          <span>HTML &amp; CSS</span>
+        </div>
+        <br>
+        <br>
+        <div id="hero-cta01">
+        <a href="/img/Resume_MariMuthu.M_01.pdf" class="btn btn-resume" download>Download Resume ↓</a>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section style="background-color: #f3f3f3;" id="services">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="tag" style="font-size: 30px;font-weight: bold;">My Services</span>
+      <h2>Helping Businesses Grow Online</h2>
+      <p>Grow Your Brand with Smart Digital Strategies.</p>
+    </div>
+    <div class="service-grid">
+      <div style="background-color: #1e293b;" class="service-card c-ink reveal">
+        <!-- <span class="num">01</span> -->
+        <div>
+          <i style="font-size: 50px;margin-left: 130px;color: #0dc4ea;" class="fas fa-search"></i>
+          <h3>SEO - Search Engine Optimization</h3>
+          <p>On-page SEO, Off-page SEO, Technical SEO & Local SEO services.</p>
+        </div>
+      </div>
+      <!-- <div class="service-card c-amber reveal">
+        <span class="num">02</span>
+        <div>
+          <i style="font-size: 50px;margin-left: 130px;color: orangered;" class="fas fa-bullhorn"></i>
+          <h3>Search Engine Marketing</h3>
+          <p>Drive Instant Results with Google Ads.</p>
+        </div>
+      </div>
+      <div class="service-card c-mint reveal">
+        <span class="num">03</span>
+        <div>
+           <i style="font-size: 50px;margin-left: 130px;color: orangered;" class="fas fa-hashtag"></i>
+          <h3>Social Media Marketing</h3>
+          <p>Build Your Brand Across Social Platforms.</p>
+        </div>
+      </div>
+      <div class="service-card c-coral reveal">
+        <span class="num">04</span>
+        <div>
+          <i style="font-size: 50px;margin-left: 130px;color: orangered;" class="fas fa-pen-nib"></i>
+          <h3>Content Marketing</h3>
+          <p>Create Engaging Content That Converts.</p>
+        </div>
+      </div> -->
+      <div style="background-color: #1e293b;" class="service-card c-paper reveal">
+        <!-- <span class="num">05</span> -->
+        <div>
+          <i style="font-size: 50px;margin-left: 130px;color: #09b97c;" class="fas fa-chart-line"></i>
+          <h3 style="color: white;">Digital Marketing</h3>
+          <p style="color: #b1bcc8;">Google Ads, Meta Ads, Social Media Marketing & Lead Generation.</p>
+        </div>
+      </div>
+      <div style="background-color: #1e293b;" class="service-card c-ink reveal">
+        <!-- <span class="num">06</span> -->
+        <div>
+          <i style="font-size: 50px;margin-left: 130px;color: #ebb30b;" class="fas fa-code"></i>
+          <h3>Web Development</h3>
+          <p>Fast, responsive websites and landing pages built in HTML &amp; CSS, tuned for conversions from day one.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="tag" style="font-size: 35px;font-weight: bold;">My Projects</span>
+      <h2>Some of my recent works</h2>
+    </div>
+    <div class="project-grid">
+      <div class="project-card reveal">
+        <div style="background-image: url(/img/Rithan-Promoters-logo.png);background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;" class="project-top">
+        </div>
+        <div class="project-body">
+          <div class="project-metric">SEO</div>
+          <div class="project-metric-lbl">Real estate website</div>
+          <h3>Rithan Promoters</h3>
+          <p>Real estate SEO optimization | keyword research, On-Page SEO and Technical SEO, and Off-Page SEO to improve rankings and generate leads.</p>
+          <div class="tag-row"><span>On-Page SEO</span><span>Technical SEO</span><span>Off-Page SEO</span></div>
+          <a href="#rithanpromoters.com" class="project-link">Visit website</a>
+        </div>
+      </div>
+      <div class="project-card reveal">
+        <div style="background-image:url(/img/KSAssociate-logo.png);background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;" class="project-top">
+        </div>
+        <div class="project-body">
+          <div class="project-metric">SEO</div>
+          <div class="project-metric-lbl">Land surveying website</div>
+          <h3>KS Associate</h3>
+          <p>Land surveying SEO optimization — competitor analysis, on-page fixes and technical audits to improve crawlability and visibility.</p>
+          <div class="tag-row"><span>Keyword Research</span><span>Technical SEO</span><span>Ad Campaigns</span></div>
+          <a href="#www.ksassociates.in" class="project-link">Visit website</a>
+        </div>
+      </div>
+      <div class="project-card reveal">
+        <div style="background-image: url(/img/kitkat-logo.jpg);background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;" class="project-top">
+        </div>
+        <div class="project-body">
+          <div class="project-metric">Intern</div>
+          <div class="project-metric-lbl">Agency training</div>
+          <h3>KitKat Software Technologies</h3>
+          <p>SEO, GA4 &amp; Search Console reporting, social content for Facebook/Instagram, and Canva creatives during a digital marketing internship.</p>
+          <div class="tag-row"><span>Keyword Research</span><span>Off-Page SEO</span></div>
+          <a href="#kitkatsoftwaretechnologies.com" class="project-link">Visit website</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="tag" style="font-size: 35px;font-weight: bold;">Experience</span>
+      <h2> My Professional journey</h2>
+      <p>Where I've built and sharpened this skill set.</p>
+    </div>
+    <div class="timeline">
+      <div class="tl-item reveal">
+        <div class="when">2025 — Present</div>
+        <h3>Digital Marketing Intern</h3>
+        <div class="org">KitKat Software Technologies</div>
+        <ul>
+          <li>Hands-on SEO — keyword research, on-page, off-page and technical SEO</li>
+          <li>Used Google Analytics and Search Console to analyze site performance and behavior</li>
+          <li>Created and managed social media content for Facebook and Instagram</li>
+          <li>Designed social posts and promotional creatives using Canva</li>
+          <li>Assisted with campaign planning, reporting and performance analysis</li>
+        </ul>
+      </div>
+      <!-- <div class="tl-item reveal">
+        <div class="when">2023 — 2025</div>
+        <h3>SEO Executive</h3>
+        <div class="org">Kestrel Media Labs</div>
+        <ul>
+          <li>Ran technical audits and on-page optimization for 20+ small business websites</li>
+          <li>Managed local SEO and Google Business Profiles for a multi-location retail client</li>
+        </ul>
+      </div>
+      <div class="tl-item reveal">
+        <div class="when">2022 — 2023</div>
+        <h3>Marketing Intern → Junior Associate</h3>
+        <div class="org">Freelance &amp; self-directed projects</div>
+        <ul>
+          <li>Built and shipped first client websites in HTML/CSS</li>
+          <li>Learned SEO fundamentals through hands-on keyword research and content audits</li>
+        </ul>
+      </div>
+    </div>
+  </div> -->
+</section>
+
+<!-- CERTIFICATES -->
+<section id="certificates">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="tag" style="font-size: 35px;font-weight: bold;">Certificates</span>
+      <h2>Training &amp; credentials</h2>
+      <p>Courses and certifications behind the work above.</p>
+    </div>
+    <div class="cert-grid cert-grid-3">
+      <div class="cert-card reveal">
+        <div class="cert-icon">DM</div>
+        <div><h4>Digital Marketing Certification</h4><p>KitKat Software Technologies — SEO, SEM, SMM and content marketing fundamentals.</p></div>
+      </div>
+      <div class="cert-card reveal">
+        <div class="cert-icon">CS</div>
+        <div><h4>Cybersecurity Certification</h4><p>Cappriciosec University — core cybersecurity concepts.</p></div>
+      </div>
+      <div class="cert-card reveal">
+        <div class="cert-icon">NCC</div>
+        <div><h4>NCC C-Certificate — A Grade</h4><p>Army Attachment Camps, Secunderabad &amp; Bangalore — leadership, teamwork and discipline.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="reveal">
+        <span class="tag">Contact</span>
+        <h2 style="color:#fff;">Let's grow something together</h2>
+        <p style="margin-top:14px;max-width:420px;">Have an SEO, ads or website project in mind? Send a message or reach out directly — I usually reply within a day.</p>
+        <div class="contact-links">
+          <a href="mailto:marimuthu.m9655@gmail.com"><span class="ic">✉</span> marimuthu.m9655@gmail.com</a>
+          <a href="https://wa.me/919361184181" target="_blank" rel="noopener"><span class="ic">☎</span> +91 9361184181 · WhatsApp</a>
+          <a href="#"><span class="ic">in</span> linkedin.com/in/aaravmehta</a>
+        </div>
+        <div class="hero-cta">
+        <a href="/img/Resume_MariMuthu.M_01.pdf" class="btn btn-resume" download>Download Resume ↓</a>
+      </div>
+      </div>
+      <form class="contact-form" onsubmit="return handleContactSubmit(event)">
+        <div class="form-row">
+          <input type="text" placeholder="Your name" required>
+          <input type="email" placeholder="Your email" required>
+        </div>
+        <input type="text" placeholder="Subject">
+        <textarea placeholder="Tell me about your project..." required></textarea>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <strong>Mari Muthu.M</strong> · Digital Marketing &amp; Growth Strategist<br>
+  © 2026 Mari Muthu.M. All rights reserved.
+</footer>
+
+<div class="back-top" id="backTop">↑</div>
+
+<script>
+  // Header background on scroll
+  const header = document.getElementById('siteHeader');
+  const backTop = document.getElementById('backTop');
+  window.addEventListener('scroll', () => {
+    header.classList.toggle('scrolled', window.scrollY > 40);
+    backTop.classList.toggle('show', window.scrollY > 600);
+  });
+  backTop.addEventListener('click', () => window.scrollTo({top:0, behavior:'smooth'}));
+
+  // Mobile drawer
+  const burger = document.getElementById('burgerBtn');
+  const drawer = document.getElementById('mobileDrawer');
+  const overlay = document.getElementById('drawerOverlay');
+  function closeDrawer(){ drawer.classList.remove('open'); overlay.classList.remove('show'); }
+  burger.addEventListener('click', () => { drawer.classList.add('open'); overlay.classList.add('show'); });
+  overlay.addEventListener('click', closeDrawer);
+  drawer.querySelectorAll('a').forEach(a => a.addEventListener('click', closeDrawer));
+
+  // Active nav link on scroll
+  const sections = document.querySelectorAll('section[id]');
+  const navA = document.querySelectorAll('nav.links a');
+  const navObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting){
+        navA.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + entry.target.id));
+      }
+    });
+  }, { rootMargin: '-45% 0px -50% 0px' });
+  sections.forEach(s => navObserver.observe(s));
+
+  // Reveal on scroll
+  const revealObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting){
+        entry.target.classList.add('in');
+        revealObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+  document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+  // Count-up stats
+  const counters = document.querySelectorAll('[data-count]');
+  const countObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting){
+        const el = entry.target;
+        const target = parseInt(el.dataset.count, 10);
+        let cur = 0;
+        const step = Math.max(1, Math.round(target / 60));
+        const tick = () => {
+          cur += step;
+          if(cur >= target){ el.textContent = target; return; }
+          el.textContent = cur;
+          requestAnimationFrame(tick);
+        };
+        tick();
+        countObserver.unobserve(el);
+      }
+    });
+  }, { threshold: 0.4 });
+  counters.forEach(c => countObserver.observe(c));
+
+  // Contact form (static demo — no backend)
+  function handleContactSubmit(e){
+    e.preventDefault();
+    const btn = e.target.querySelector('button[type="submit"]');
+    const original = btn.textContent;
+    btn.textContent = 'Message sent ✓';
+    e.target.reset();
+    setTimeout(() => { btn.textContent = original; }, 2600);
+    return false;
+  }
+</script>
+</body>
+</html>
